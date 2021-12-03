@@ -1,0 +1,1 @@
+SELECT JSON_VALUE(Property,'$.IsOpenSelectGoodsWeight'),CityName FROM dbo.Dic_CityBase WITH(NOLOCK) WHERE JSON_VALUE(Property,'$.IsOpenSelectGoodsWeight')=2;
